@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "https://ac-search-engine-clone.netlify.app/*"
+  to = "https://lets-search.abcx.fyi/:splat"
+  status = 301
+  force = true
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "frame-ancestors 'self'"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
