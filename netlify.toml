@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "https://ac-search-engine-clone.netlify.app/*"
-  to = "https://lets-search.abcx.fyi/:splat"
+  from = "https://acuvid-v1.netlify.app/*"
+  to = "https://uv1.abcx.fyi/:splat"
   status = 301
   force = true
 [[headers]]
