@@ -1,4 +1,8 @@
-
+[[redirects]]
+  from = "https://acuvid-v1.netlify.app/*"
+  to = "https://uv1.abcx.fyi/:splat"
+  status = 301
+  force = true
 [[headers]]
   for = "/*"
   [headers.values]
